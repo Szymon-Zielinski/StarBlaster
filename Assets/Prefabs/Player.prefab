@@ -112,7 +112,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c7a08d1149c2c543bb3c2c9bcf8c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
-  health: 50
+  health: 200
+  hitParticles: {fileID: 3192927123649142558, guid: ee8a98415b7f6c24198e9f2c2df870b2, type: 3}
+  applyCameraShake: 1
 --- !u!114 &6548463423288996645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,7 +130,10 @@ MonoBehaviour:
   projectilePrefab: {fileID: 4469999528914033749, guid: 3d07d3b5469baa14a9d5744e96604077, type: 3}
   projectileSpeed: 10
   projectileLifetime: 5
-  fireRate: 0.2
+  baseFireRate: 0.2
+  useAI: 0
+  minimumFireRate: 0.2
+  fireRateVariance: 0
   isFiring: 0
 --- !u!114 &7419508188863205242
 MonoBehaviour:

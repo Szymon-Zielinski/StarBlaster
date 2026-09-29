@@ -156,7 +156,6 @@ GameObject:
   - component: {fileID: 4247957545587400381}
   - component: {fileID: -361145643446142247}
   - component: {fileID: 2811243807012562906}
-  - component: {fileID: -8876766721391301858}
   - component: {fileID: -3099481110888195434}
   m_Layer: 7
   m_Name: Enemy
@@ -257,19 +256,6 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.6
---- !u!114 &-8876766721391301858
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8341274194136940610}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2bf49c59d9cf62a4e9e1e65e289c8696, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DamageDealer
-  damage: 25
 --- !u!114 &-3099481110888195434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -282,4 +268,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c7a08d1149c2c543bb3c2c9bcf8c813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
-  health: 50
+  health: 101
+  hitParticles: {fileID: 3192927123649142558, guid: ee8a98415b7f6c24198e9f2c2df870b2, type: 3}
+  applyCameraShake: 0

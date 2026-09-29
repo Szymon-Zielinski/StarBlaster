@@ -203,7 +203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bf49c59d9cf62a4e9e1e65e289c8696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DamageDealer
-  damage: 100
+  damage: 50
 --- !u!1001 &3378202930948625724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -219,6 +219,10 @@ PrefabInstance:
     - target: {fileID: 493165224140339689, guid: cc76c905017718b468305851305d27a1, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 842689761885592460, guid: cc76c905017718b468305851305d27a1, type: 3}
+      propertyPath: damage
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1401450939057112253, guid: cc76c905017718b468305851305d27a1, type: 3}
       propertyPath: m_LocalPosition.x
